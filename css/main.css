@@ -1,0 +1,26 @@
+table {
+    width: 95%;
+    height: 30rem;
+}
+
+th {
+    border-bottom: 1px solid black;
+}
+
+tr {
+    border-bottom: 1px solid black;
+}
+
+img {
+    width: 280px;
+    height: 350px;
+}
+
+.title {
+    width: 150px;
+    align-items: center;
+}
+
+h2 {
+    color: tomato;
+}

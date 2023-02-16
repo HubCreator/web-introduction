@@ -1,5 +1,5 @@
 window.onload = () => {
-    let submitButton = document.getElementById("submitButton");
+    const submitButton = document.getElementById("submitButton");
     submitButton.addEventListener("click", clickEvent);
 };
 
@@ -15,5 +15,5 @@ function clickEvent() {
         }
     }
 
-    alert(name.value + ", 저와 " + count + "개의 취향이 같으시네요!");
+    alert(`${name.value}, 저와 ${count}개의 취향이 같으시네요!`);
 }
