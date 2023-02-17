@@ -10,6 +10,7 @@ function clickEvent() {
     let count = 0;
 
     for (i = 0; i < children.length; i++) {
+        console.log(children[i]);
         if (children[i].checked) {
             count++;
         }

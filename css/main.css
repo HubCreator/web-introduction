@@ -1,18 +1,16 @@
 table {
-    width: 95%;
+    align-items: center;
+    width: 80%;
     height: 30rem;
 }
-
-th {
-    border-bottom: 1px solid black;
+th:nth-child(1) {
+    width: 30px;
 }
-
-tr {
-    border-bottom: 1px solid black;
+th:last-child {
+    width: 80px;
 }
-
 img {
-    width: 280px;
+    width: 250px;
     height: 350px;
 }
 
